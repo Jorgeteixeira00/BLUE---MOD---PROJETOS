@@ -1,0 +1,56 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pagina {
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color:white;
+  
+}
+
+.titulo {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.sub-titulo1 {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.elementos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.itens {
+    text-align: center;
+    font-weight: bold;
+}
+
+.botao {
+    border-radius: 25px;
+    background-color: red;
+    text-align: center;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color:orangered;
+}

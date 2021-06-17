@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Einsten</title>
+    </head>
+    <body>
+        <div style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 30px;">
+            <p><strong>Nome:</strong>{{nome}} {{sobrenome}}</p>
+        </div>
+
+        <div style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 30px;">
+            <p><strong>Idade:</strong>{{idade}}</p>
+        </div>
+
+        <div>
+            {% if nome == "Betão" %}
+            <img src="{{imagem_doidao}}" alt="" width="500px">
+            <p style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 30px; "><strong>Betão está doido!</strong></p>
+            {% elif nome == "Albert" %}
+            <img src="{{imagem_lucido}}" alt="" width="500px">
+            <p style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 30px;"><strong>Albert está sério</strong>!</p>
+            {% endif %}
+        </div>
+    </body>
+</html>
